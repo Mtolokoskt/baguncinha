@@ -1,0 +1,301 @@
+/*=========== RESET ===========*/
+*{margin: 0;
+ padding: 0;
+ font-size: 100%;
+ border: none;
+ outline: none;
+ font-weight: 300;
+ box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+#galeria{
+	display: inline;
+	width: 300px;
+}
+
+#galeria img{
+	float: left;
+	width: 300px;
+	height: 467px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+#galeria2 img{
+	width: 930px;
+	height: 420px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+/* CABEÇALHO */
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.logo {
+	width: 150px;
+	height: 90px;
+	float: left;
+  background-position: center;
+	background-image: url("../img/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: 70px;
+	font-size: 0;
+	}
+.login {
+	height: 56px;
+  float: right;
+	cursor: pointer;
+  font-size: 25px;
+
+}
+.btn-menu2 {
+	width: 56px;
+	height: 56px; float: right;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+/* MENU */
+.menu {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.btn-menu {
+	width: 56px;
+	height: 88px;
+	float: left;
+  background-position: center;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-close {
+	font-size: 3em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin-right: 5%;
+}
+
+.menu ul {width: 100%; float: left; text-align: center;}
+.menu li {padding: 0.4%;}
+.menu li a {font-size: 1.5em; color: #fff; padding: 1% 1%;}
+.menu li a:hover {border: 1px solid #da6709;}
+
+/* BANNER */
+.banner {width: 100%; float: left; text-align: center; padding: 3% 4%; background: url(../img/77.jpg) no-repeat fixed;}
+.banner h2 {font-size: 2.5em; color: #fff; font-weight: 700;}
+.banner h3 {font-size: 1.5em; color: #fff;}
+.banner h4 {font-size: 2em; color: #fff; padding: 3% 4%;}
+.banner h5 {font-size: 3em; color: #fff; font-weight: 700;}
+.banner td {font-size: 3em; color: #fff;}
+
+.fundo {
+  background: linear-gradient(to left, #191970, #fff);
+  height:1000px;
+}
+
+.form-horizontal {
+  color: #fff;
+}
+
+.contrata {
+  color: #fff;
+}
+
+.container {
+  padding-top: 0px;
+
+}
+
+.rodape {
+	color: white;
+    margin-left: 33%;
+    margin-top: 100px;
+
+}
+
+.btn-sim {
+	width: 75px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-nao {
+	width: 75px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-cad {
+	width: 210px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-atu {
+	width: 210px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-rel {
+	width: 210px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.btn-cadfunc {
+	width: 143px;
+	height: 34px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.nome {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.email {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.esp {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.custo {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.msg {
+
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+
+}
+
+.ht {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.tipo {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.local {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.prod {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.status {
+
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.bnv {
+
+  float: right;
+
+}
+
+
+#cadastro {
+	width: 75px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+#cadastro2 {
+	width: 75px;
+	height: 44px;
+  float: left;
+	text-align: center;
+	color: #fff;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right, #ce2e3c, #da6709);
+}
